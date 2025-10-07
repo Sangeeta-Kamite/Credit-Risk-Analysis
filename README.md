@@ -116,6 +116,15 @@ Metrics used:
 | Logistic Regression | Moderate | Easy to interpret |
 | Gradient Boosting | High | Best accuracy and recall |
 
+**Model Saving with Joblib**
+
+The project uses **`joblib`** to save and reload trained machine learning models efficiently.
+
+Why Joblib?
+- It’s optimized for serializing large **NumPy arrays** and **Scikit-learn objects**.  
+- Faster and more memory-efficient than `pickle` for saving ML models.  
+- Ensures that trained pipelines and preprocessing steps can be easily reused.
+
 **Future Improvements**
 
 - Handle class imbalance using **SMOTE / ADASYN**  
