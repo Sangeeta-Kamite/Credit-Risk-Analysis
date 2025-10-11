@@ -1,4 +1,4 @@
-# Credit-Risk-Analysis
+# Credit Risk Analysis
 
 This project demonstrates how **machine learning can be applied to financial risk assessment**.  
 By predicting loan defaults accurately, institutions can improve portfolio quality, reduce losses, and make data-driven lending decisions.
